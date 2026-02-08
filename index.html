@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Date 💕</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ffe5ec, #ffc2d1);
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 22px;
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+      animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+      color: #e63946;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .heart {
+      font-size: 36px;
+      animation: beat 1s infinite;
+      margin-bottom: 10px;
+    }
+
+    .itinerary {
+      background: #fff0f3;
+      border-radius: 15px;
+      padding: 15px;
+      margin-top: 15px;
+      text-align: left;
+    }
+
+    .itinerary h2 {
+      text-align: center;
+      color: #d62839;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .step {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .step span {
+      font-weight: bold;
+      color: #e63946;
+    }
+
+    button {
+      margin-top: 18px;
+      padding: 12px 22px;
+      border: none;
+      border-radius: 30px;
+      background: #e63946;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #d62839;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+    <h1>Hi Wenafe</h1>
+    <div class="subtitle">I planned something special for us</div>
+
+    <p>
+      I’d love to take you out on a date — just us, no rush, no worries.
+      A day where I get to hold your hand and make you smile.
+    </p>
+
+    <p>
+      📅 <strong>Date:</strong> (February 28, 2026)<br>
+      📍 <strong>Place:</strong> (SA AMIN NALANG SIGE)
+    </p>
+
+    <div class="itinerary">
+      <h2>Our Little Plan 💕</h2>
+
+      <div class="step">
+        <span>🕒 4:00 PM</span> — Meet up & warm hugs
+      </div>
+
+      <div class="step">
+        <span>🍽 5:00 PM</span> — Dinner & deep talks
+      </div>
+
+      <div class="step">
+        <span>☕ 6:30 PM</span> — Coffee / dessert date
+      </div>
+
+      <div class="step">
+        <span>🚶‍♂️ 7:30 PM</span> — Slow walk, hand in hand
+      </div>
+
+      <div class="step">
+        <span>✨ 8:30 PM</span> — Quiet moment, just us
+      </div>
+    </div>
+
+    <button onclick="alert('I’m so excited to see you 💖')">
+      Will you go on this date with me?
+    </button>
+  </div>
+</body>
+</html>
